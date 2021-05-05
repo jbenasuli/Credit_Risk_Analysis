@@ -11,68 +11,68 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 - There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models
 
 - RandomOverSampler
-  - Balanced accuracy score: xx
+  - Balanced accuracy score: .65
   - Precision scores:
-    - high_risk: xx
-    - low_risk: xx
+    - high_risk: .01
+    - low_risk: 1.00
   - Recall scores:
-    - high_risk: xx
-    - low_risk: xx
+    - high_risk: .72
+    - low_risk: .59
 
 ![RandomOverSampler-scores-img](<readme-imgs/output-imgs-resized/naive-random-oversampling.png>)
 
 - SMOTE
-  - Balanced accuracy score: xx
+  - Balanced accuracy score: .66
   - Precision scores:
-    - high_risk: xx
-    - low_risk: xx
+    - high_risk: .01
+    - low_risk: 1.00
   - Recall scores:
-    - high_risk: xx
-    - low_risk: xx
+    - high_risk: .63
+    - low_risk: .69
 
 ![SMOTE-scores-img](<readme-imgs/output-imgs-resized/smote-oversampling.png>)
 
 - ClusterCentroids
-  - Balanced accuracy score: xx
+  - Balanced accuracy score: .54
   - Precision scores:
-    - high_risk: xx
-    - low_risk: xx
+    - high_risk: .01
+    - low_risk: 1.00
   - Recall scores:
-    - high_risk: xx
-    - low_risk: xx
+    - high_risk: .69
+    - low_risk: .40
 
 ![ClusterCentroids-scores-img](<readme-imgs/output-imgs-resized/cluster-centroids.png>)
 
 - SMOTEENN
-  - Balanced accuracy score: xx
+  - Balanced accuracy score: .67
   - Precision scores:
-    - high_risk: xx
-    - low_risk: xx
+    - high_risk: .01
+    - low_risk: 1.00
   - Recall scores:
-    - high_risk: xx
-    - low_risk: xx
+    - high_risk: .72
+    - low_risk: .61
 
 ![SMOTEENN-scores-img](<readme-imgs/output-imgs-resized/smoteenn-resampling.png>)
 
 - BalancedRandomForestClassifier
-  - Balanced accuracy score: xx
+  - Balanced accuracy score: .79
   - Precision scores:
-    - high_risk: xx
-    - low_risk: xx
+    - high_risk: .03
+    - low_risk: 1.00
   - Recall scores:
-    - high_risk: xx
-    - low_risk: xx
+    - high_risk: .70
+    - low_risk: .87
 
 ![BalancedRandomForestClassifier-scores-img](<readme-imgs/output-imgs-resized/balanced-random-forest.png>)
 
 - EasyEnsembleClassifier
-  - Balanced accuracy score: xx
+  - Balanced accuracy score: .93
   - Precision scores:
-    - high_risk: xx
-    - low_risk: xx
+    - high_risk: .09
+    - low_risk: 1.00
   - Recall scores:
-    - high_risk: xx
-    - low_risk: xx
+    - high_risk: .92
+    - low_risk: .94
 
 ![EasyEnsembleClassifier-scores-img](<readme-imgs/output-imgs-resized/easy-ensemble.png>)
 
