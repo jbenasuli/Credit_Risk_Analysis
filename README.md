@@ -18,6 +18,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
   - Recall scores:
     - high_risk: xx
     - low_risk: xx
+
 ![RandomOverSampler-scores-img](<readme-imgs/output-imgs-resized/naive-random-oversampling.png>)
 
 - SMOTE
@@ -28,6 +29,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
   - Recall scores:
     - high_risk: xx
     - low_risk: xx
+
 ![SMOTE-scores-img](<readme-imgs/output-imgs-resized/smote-oversampling.png>)
 
 - ClusterCentroids
@@ -38,6 +40,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
   - Recall scores:
     - high_risk: xx
     - low_risk: xx
+
 ![ClusterCentroids-scores-img](<readme-imgs/output-imgs-resized/cluster-centroids.png>)
 
 - SMOTEENN
@@ -48,6 +51,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
   - Recall scores:
     - high_risk: xx
     - low_risk: xx
+
 ![SMOTEENN-scores-img](<readme-imgs/output-imgs-resized/smoteenn-resampling.png>)
 
 - BalancedRandomForestClassifier
@@ -58,6 +62,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
   - Recall scores:
     - high_risk: xx
     - low_risk: xx
+
 ![BalancedRandomForestClassifier-scores-img](<readme-imgs/output-imgs-resized/balanced-random-forest.png>)
 
 - EasyEnsembleClassifier
@@ -68,6 +73,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
   - Recall scores:
     - high_risk: xx
     - low_risk: xx
+
 ![EasyEnsembleClassifier-scores-img](<readme-imgs/output-imgs-resized/easy-ensemble.png>)
 
 ## Summary
