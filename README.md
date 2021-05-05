@@ -18,7 +18,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
   - Recall scores:
     - high_risk: xx
     - low_risk: xx
-![RandomOverSampler-scores-img](<insert-relative-pathname-here>)
+![RandomOverSampler-scores-img](<readme-imgs/output-imgs-resized/naive-random-oversampling.png>)
 
 - SMOTE
   - Balanced accuracy score: xx
@@ -28,7 +28,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
   - Recall scores:
     - high_risk: xx
     - low_risk: xx
-![smote-scores-img](<insert-relative-pathname-here>)
+![SMOTE-scores-img](<readme-imgs/output-imgs-resized/smote-oversampling.png>)
 
 - ClusterCentroids
   - Balanced accuracy score: xx
@@ -38,7 +38,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
   - Recall scores:
     - high_risk: xx
     - low_risk: xx
-![ClusterCentroids-scores-img](<insert-relative-pathname-here>)
+![ClusterCentroids-scores-img](<readme-imgs/output-imgs-resized/cluster-centroids.png>)
 
 - SMOTEENN
   - Balanced accuracy score: xx
@@ -48,7 +48,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
   - Recall scores:
     - high_risk: xx
     - low_risk: xx
-![SMOTEENN-scores-img](<insert-relative-pathname-here>)
+![SMOTEENN-scores-img](<readme-imgs/output-imgs-resized/smoteenn-resampling.png>)
 
 - BalancedRandomForestClassifier
   - Balanced accuracy score: xx
@@ -58,7 +58,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
   - Recall scores:
     - high_risk: xx
     - low_risk: xx
-![BalancedRandomForestClassifier-scores-img](<insert-relative-pathname-here>)
+![BalancedRandomForestClassifier-scores-img](<readme-imgs/output-imgs-resized/balanced-random-forest.png>)
 
 - EasyEnsembleClassifier
   - Balanced accuracy score: xx
@@ -68,7 +68,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
   - Recall scores:
     - high_risk: xx
     - low_risk: xx
-![EasyEnsembleClassifier-scores-img](<insert-relative-pathname-here>)
+![EasyEnsembleClassifier-scores-img](<readme-imgs/output-imgs-resized/easy-ensemble.png>)
 
 ## Summary
 
