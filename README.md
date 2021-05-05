@@ -1,14 +1,10 @@
 # Credit_Risk_Analysis
 
-## Overview of the analysis - Explain the purpose of this analysis
+## Overview
 
-The purpose of this analysis is to explore various methods for predicting credit risk using machine learning models. In order to best analyze credit risk, 6 different machine learnign models are trained and tested using the same loan dataset. The performance of each model, as demonstrated by balanced accuracy, precision and recall scores, is used to evaluate which model(s) ***is/are*** best suited to conduct credit risk analysis.
+The purpose of this analysis is to explore various methods for predicting credit risk using machine learning models. In order to best analyze credit risk, six different machine learning models are trained and tested using the same loan dataset. The performance of each model, as demonstrated by balanced accuracy, precision and recall scores, is used to evaluate which model is best suited to handle the unbalanced classification problem inherent in credit risk analysis.
 
 ## Results
-
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
-
-- There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models
 
 - RandomOverSampler
   - Balanced accuracy score: .65
@@ -78,7 +74,8 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning
+Having measured the performance of all six of the machine learning models, it is clear that ensemble models are superior in their evaluation of credit risk. Oversampling with the RandomOverSampler and SMOTE algorithms, undersampling with the ClusterCentroids algorithm and the combinatorial method of over and undersampling with the SMOTEENN algorithm all generated mediocre results. Only when leveraging ensemble classification to reduce bias by using the BalancedRandomForestClassifier algorithm and the EasyEnsembleClassifier algorithm did the models produce high scores for most metrics.
 
-- There is a summary of the results
-- There is a recommendation on which model to use, or there is no recommendation with a justification
+The EasyEnsembleClassifier performed best across all the metrics evaluated with a balanced accuracy score of .93, precision scores of .09 and 1.00 for high risk and low risk respectively, and recall scores of .92 and .94 for high risk and low risk respectively. Given its performance in evaluating high and low risk loans the EasyEnsembleClassifier is the clear recommendation for which model to use for analyzing credit risk.
+
+One item of note is that all six models had very low precision scores for high risk loans. While the nature of credit risk data and its analysis might limit the ability to improve that metric, further exploration of the high risk precision score is warranted. An analysis of the features and underlying data to best understand the low score could highlight the need to reevaluate features and their data and in turn improve precision and model performance overall.
