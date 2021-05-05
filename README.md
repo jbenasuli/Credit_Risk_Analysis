@@ -19,7 +19,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
     - high_risk: xx
     - low_risk: xx
 
-![RandomOverSampler-scores-img](<readme-imgs/output-imgs-reduced/naive-random-oversampling.png>)
+![RandomOverSampler-scores-img](<readme-imgs/output-imgs-resized/naive-random-oversampling.png>)
 
 - SMOTE
   - Balanced accuracy score: xx
@@ -30,7 +30,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
     - high_risk: xx
     - low_risk: xx
 
-![SMOTE-scores-img](<readme-imgs/output-imgs-reduced/smote-oversampling.png>)
+![SMOTE-scores-img](<readme-imgs/output-imgs-resized/smote-oversampling.png>)
 
 - ClusterCentroids
   - Balanced accuracy score: xx
@@ -41,7 +41,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
     - high_risk: xx
     - low_risk: xx
 
-![ClusterCentroids-scores-img](<readme-imgs/output-imgs-reduced/cluster-centroids.png>)
+![ClusterCentroids-scores-img](<readme-imgs/output-imgs-resized/cluster-centroids.png>)
 
 - SMOTEENN
   - Balanced accuracy score: xx
@@ -52,7 +52,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
     - high_risk: xx
     - low_risk: xx
 
-![SMOTEENN-scores-img](<readme-imgs/output-imgs-reduced/smoteenn-resampling.png>)
+![SMOTEENN-scores-img](<readme-imgs/output-imgs-resized/smoteenn-resampling.png>)
 
 - BalancedRandomForestClassifier
   - Balanced accuracy score: xx
@@ -63,7 +63,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
     - high_risk: xx
     - low_risk: xx
 
-![BalancedRandomForestClassifier-scores-img](<readme-imgs/output-imgs-reduced/balanced-random-forest.png>)
+![BalancedRandomForestClassifier-scores-img](<readme-imgs/output-imgs-resized/balanced-random-forest.png>)
 
 - EasyEnsembleClassifier
   - Balanced accuracy score: xx
@@ -74,7 +74,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
     - high_risk: xx
     - low_risk: xx
 
-![EasyEnsembleClassifier-scores-img](<readme-imgs/output-imgs-reduced/easy-ensemble.png>)
+![EasyEnsembleClassifier-scores-img](<readme-imgs/output-imgs-resized/easy-ensemble.png>)
 
 ## Summary
 
